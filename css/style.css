@@ -12,84 +12,68 @@ header{
     text-align: center;
     font-size: 40px;
 }
-.tabela{
-    display:flex;
-    padding: auto;
-    justify-items: center;
-    margin-top: 300px;
-    align-items:center;
-    text-align:center;
-    justify-content: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.catrv-section {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 5px 0 5px;
 }
-
-section:not(.category-header) {
-    padding: 0 15px;
-}
-article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
-    display: block;
-}
-*:not(i) {
-    font-family: 'Nunito Sans', arial, sans-serif, 'Font Awesome 5 Pro', 'Font Awesome 5 Brands';
-}
-*, ::after, ::before {
-    box-sizing: border-box;
-}
-user agent stylesheet
-section {
-    display: block;
-}
-.catrv-img-1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.50),rgba(0, 0, 0, 0.10));
-    ima;
-}
-
-.catrv-img-2 {
-    background: linear-gradient(rgba(0, 0, 0, 0.50),rgba(173, 97, 97, 0.1))
-}
-.catrv-img-3 {
-    background: linear-gradient(rgba(0, 0, 0, 0.50),rgba(0, 0, 0, 0.10))
+.catrv-grid {
+    margin: 30px;
+    padding: 0;
+    display: flex;
+    text-align: center;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .catrv-box {
+    margin-top: 10px;
     width: 100%;
     height: 100%;
     position: relative;
     cursor: pointer;
     border-radius: 10px;
-    -webkit-transition: 0.3s ease-in-out,-webkit-transform 0.3s ease-in-out;
-    -moz-transition: 0.3s ease-in-out,-moz-transform 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out,transform 0.3s ease-in-out,;
 }
-*:not(i) {
-    font-family: 'Nunito Sans', arial, sans-serif, 'Font Awesome 5 Pro', 'Font Awesome 5 Brands';
+.catrv-info {
+    width:auto;
+    position: relative; 
 }
-*, ::after, ::before {
-    box-sizing: border-box;
+button {
+    padding: 0.6rem;
+    font-weight: bold;
+    border-radius: 0.9rem;
+    cursor: pointer;
+    outline: none;
+    font-size: 0.9rem;
+    background:green;
+    transition: all 0.3s linear;
+    color: #ffffff;
+    margin: 10px;
+    border: none;
 }
-user agent stylesheet
-div {
-    display: block;
+
+button:hover {
+    transition: all 0.3s linear;
+    background-color: white;
+    color:green;
+    font-weight: bold;
+    cursor: pointer;
 }
-user agent stylesheet
-li {
-    text-align: -webkit-match-parent;
-}
-.catrv-grid {
-    margin: 20px 0 0 0;
-    padding: 0;
-    list-style: none;
-    display: block;
+
+.btn-index {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     width: 100%;
+    margin-top: 1rem;;
 }
-ul {
-    list-style-type: none;
+
+.btn {
+    display: flex;
+    justify-content: center;
 }
-user agent stylesheet
-ul {
-    list-style-type: disc;
-}
-  
 
 span{
     width: auto;
